@@ -5,7 +5,7 @@ pipeline {
         stage('Testes Performance') {
             steps {
                 echo 'Testando...'
-                bat "../teste-performance/pathText.bat"
+                bat "./pathText.bat"
             }
         }
     }
